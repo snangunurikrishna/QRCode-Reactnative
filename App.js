@@ -16,25 +16,12 @@ const App = () => {
   return (
     <SafeAreaView style={{flex: 1}}>
       <View style={styles.container}>
-      <Text style={styles.titleStyle}>
-          React Native Tutorials: Part 1
-        </Text>
-        <Text style={styles.titleStyle}>
-          React Native Tutorials: Generation of QR Code in React Native
-        </Text>
         <QRCode
           value={qrvalue ? qrvalue : 'NA'}
           size={250}
           color="black"
           backgroundColor="white"
-          logo={{
-            url:
-              'https://raw.githubusercontent.com/AboutReact/sampleresource/master/logosmalltransparen.png',
-          }}
-          logoSize={30}
-          logoMargin={2}
-          logoBorderRadius={15}
-          logoBackgroundColor="yellow"
+          
         />
         <Text style={styles.textStyle}>
           Please insert any value to generate QR code
