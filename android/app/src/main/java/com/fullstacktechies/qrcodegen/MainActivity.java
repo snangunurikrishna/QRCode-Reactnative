@@ -1,4 +1,4 @@
-package com.tnative;
+package com.fullstacktechies.qrcodegen;
 
 import com.facebook.react.ReactActivity;
 
